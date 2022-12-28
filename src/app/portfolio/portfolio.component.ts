@@ -41,7 +41,7 @@ export class PortfolioComponent {
       description: 'Homepage for my music universe, with sheet music for students and links to buy CDs',
       image: '../../../assets/projectScreenshots/DRM.png',
       github: 'https://github.com/shalant/music-site-2',
-      deployment: ''
+      deployment: 'https://www.dougrosenberg.com'
     },
     {
       name: 'AWS Resilient Fault Tolerant Wordpress',
@@ -65,7 +65,7 @@ export class PortfolioComponent {
       description: 'blahblahblah',
       image: '../../../assets/projectScreenshots/CICD.png',
       github: 'https://github.com/shalant/AirlineTravelApp',
-      deployment: ''
+      deployment: 'https://devopsproject3707291139.wordpress.com'
     },
     {
       name: 'Blah',
