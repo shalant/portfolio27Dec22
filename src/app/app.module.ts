@@ -90,6 +90,7 @@ import { BnavComponent } from './navigation/bnav/bnav.component';
     MatCardModule,
     HttpClientModule,
     NoopAnimationsModule,
+    MatFormFieldModule,
     // FlexLayoutModule,
     
   ],
