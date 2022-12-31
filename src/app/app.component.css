@@ -1,23 +1,36 @@
 body {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
+    font-family: 'Raleway', sans-serif;
 }
 
-.background,
+.bricks {
+    /* position: absolute; */
+    background: url("../assets/patrick-tomasso-unsplash.jpg");
+    /* background-repeat: repeat-y; */
+    z-index: -1;
+}
+
+/* .background,
 .foreground {
     position: absolute;
     height: 100%;
     width: 100%;
-    /* object-fit: cover; */
-    background-repeat: repeat;
+    object-fit: cover;
+    background-repeat: repeat-y;
+    background-position: bottom;
     z-index: -1;
     filter:opacity(25);
 }
 
+img {
+
+} */
+
 mat-sidenav-container, mat-sidenav-content, mat-sidenav {
-    height: 100%;
+    /* height: 100%; */
 }
 
 mat-sidenav {
-    width: 250px;
+    /* width: 250px; */
 }
 
