@@ -1,6 +1,38 @@
+.thingy {
+  background-color: grey;
+  opacity: 0.95;
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.thing:hover {
+}
+
+.card {
+  background-color: rgb(238, 238, 238);
+
+}
+
+.card:hover {
+  transform: scale(1.007);
+  opacity: 0.98;
+
+}
+
+.pic {
+}
+
 .headshot {
   width: 20%;
-  align-items: center;
+}
+
+.new-text {
+  font-family: 'Raleway';
+}
+
+.new-text p {
+  
 }
 
 table {
@@ -10,6 +42,15 @@ table {
 th {
   font-weight: bold;
   font-size: larger;
+}
+
+.filter-area {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.filter-text {
+  font-weight: bold;
 }
   
 .mat-row:nth-child(even){

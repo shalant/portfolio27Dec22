@@ -1,23 +1,29 @@
-<div class="container">
-
-<h1>Doug Rosenberg Dev</h1>
-<img src="../../../assets/layout/headshot.jpg" alt="the man" class="headshot">
-<h2>Bio</h2>
-<p>I am a Full-stack .NET/Angular developer with DevOps background. Passionate about .NET/C#, Cloud Computing (both Azure/AWS), Angular/React, and working with a good team. Independent learner that enjoys pithy challenges. Lots of experience working with a variety of clients in coordinating details and managing logistics. Looking forward to my new career creating value for a company. <a href="https://github.com/shalant">My Github repo</a> is filled with more than 200 projects, and that is my strongest suit.</p>
-<address>Contact: <a href="mailto:doug.rosenberg.com">doug.rosenberg@gmail.com</a></address>
-<br>
-<div class="btn-con">
-  <a href="" class="main-btn">
-      <a href="https://docs.google.com/document/d/1jQRlU7gJ3cMUGenah_rTNDkOCmaaEnn2/edit"><span class="btn-text">Download CV</span></a>
-      <span class="btn-icon"><i class="fas fa-download"></i></span>
-  </a>
+<div class="container new-text">
+  <br>
+<div class="card thingy">
+  <br>
+  <h1>Doug Rosenberg Dev</h1>
+  <div class="pic">
+    <img src="../../../assets/layout/headshot.jpg" alt="the man" class="headshot">
+  </div>
+  <h2>Bio</h2>
+  <h3>Full-stack .NET/Angular/SQL/Azure developer with DevOps background. Passionate about .NET/C#, Cloud Computing (both Azure/AWS), Angular/React, and working with a good team. Independent learner that enjoys pithy challenges. Lots of experience working with a variety of clients in coordinating details and managing logistics. Looking forward to my new career creating value for a company. <a href="https://github.com/shalant">My Github repo</a> is filled with more than 200 projects, and that is my strongest suit.</h3>
+  <address>Contact: <a href="mailto:doug.rosenberg.com">doug.rosenberg@gmail.com</a></address>
+  <br>
+  <div class="btn-con">
+    <a href="" class="main-btn">
+        <a href="https://docs.google.com/document/d/1jQRlU7gJ3cMUGenah_rTNDkOCmaaEnn2/edit"><span class="btn-text">Download CV</span></a>
+        <span class="btn-icon"><i class="fas fa-download"></i></span>
+    </a>
+  </div>
+  <br>
+  <p><a href="https://github.com/shalant">Github: https://github.com/shalant</a></p>
+  <br>
 </div>
-<br>
-<p><a href="https://github.com/shalant">Github: https://github.com/shalant</a></p>
-<br>
 
-<mat-form-field appearance="standard">
-  <mat-label>Filter</mat-label>
+<div class="card thingy">
+<mat-form-field appearance="standard" class="filter-area">
+  <mat-label class="filter-text">Filter</mat-label>
   <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
 </mat-form-field>
 
@@ -63,5 +69,5 @@
 showFirstLastButtons 
 aria-label="Select page of periodic elements">
 </mat-paginator>
-
+</div>
 </div>
