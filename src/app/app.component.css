@@ -2,6 +2,17 @@ body {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
+.background,
+.foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+    background-repeat: repeat;
+    z-index: -1;
+    filter:opacity(25);
+}
+
 mat-sidenav-container, mat-sidenav-content, mat-sidenav {
     height: 100%;
 }
