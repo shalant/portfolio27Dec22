@@ -13,6 +13,10 @@ body {
     z-index: -1;
 }
 
+.wide {
+    width: 100vw;
+}
+
 /* .background,
 .foreground {
     position: absolute;
