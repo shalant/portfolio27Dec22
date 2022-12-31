@@ -40,6 +40,7 @@ import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BnavComponent } from './navigation/bnav/bnav.component';
+import { HireMeComponent } from './hire-me/hire-me.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { BnavComponent } from './navigation/bnav/bnav.component';
     AboutComponent,
     PortfolioComponent,
     BnavComponent,
+    HireMeComponent,
     
   ],
   imports: [
