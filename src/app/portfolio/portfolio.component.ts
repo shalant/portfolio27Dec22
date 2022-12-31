@@ -62,25 +62,25 @@ export class PortfolioComponent {
     {
       name: 'CI/CD Pipeline',
       technologies: 'Jenkins, AWS, Docker, Kubernetes, Github',
-      description: 'blahblahblah',
+      description: 'CI/CD Pipeline using a simple Python app. The goal was to make an ephemeral edit to a Python application, commit to Github, and successfully run it through a Jenkins pipeline. The Jenkins pipeline had some basic testing, and then deploys the program onto an AWS Kubernetes cluster',
       image: '../../../assets/projectScreenshots/CICD.png',
       github: 'https://github.com/shalant/AirlineTravelApp',
       deployment: 'https://devopsproject3707291139.wordpress.com'
     },
     {
-      name: 'Blah',
-      technologies: 'blah',
-      description: 'blahblahblah',
-      image: '../../../assets/projectScreenshots/ATA.png',
-      github: 'https://github.com/shalant/AirlineTravelApp',
+      name: 'Bloggie',
+      technologies: 'ASP.NET webpages, MS SQL Server',
+      description: 'A blog app with auth, tags, and a comment section. From a Udemy Course by Sameer Saini. Utilizes both client- and server-side validation.',
+      image: '../../../assets/projectScreenshots/bloggie.png',
+      github: 'https://github.com/shalant/BlogRazorSS',
       deployment: ''
     },
     {
-      name: 'Blah',
-      technologies: 'blah',
-      description: 'blahblahblah',
-      image: '../../../assets/projectScreenshots/ATA.png',
-      github: 'https://github.com/shalant/AirlineTravelApp',
+      name: 'Inspection App',
+      technologies: 'Angular, ASP.NET API, MS SQL Server',
+      description: 'Built a complex DB, served a backend end, read data onto a straightforward Angular App',
+      image: '../../../assets/projectScreenshots/InspectionApp.png',
+      github: 'https://github.com/shalant/dotnetAngCRUD',
       deployment: ''
     },
   ]
