@@ -67,7 +67,6 @@ th {
   background-color: rgb(240, 240, 240);
 }
 
-
 .mat-form-field {
   margin-right: 12px;
   font-size: 14px;
@@ -95,6 +94,10 @@ th {
   display: flex;
   align-items: center;
   overflow: hidden;
+}
+
+.main-btn:hover {
+  transform: scale(1.03);
 }
 
 .btn-text {
