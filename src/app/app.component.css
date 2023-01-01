@@ -8,9 +8,11 @@ body {
 
 .bricks {
     /* position: absolute; */
-    background: url("../assets/patrick-tomasso-unsplash.jpg");
+    background: url("../assets/patrick-tomasso-unsplash.jpg") repeat left top, linear-gradient(#eb01a5, #d13531);
     background-position: center;
     z-index: -1;
+    /* height: 100vh !important; */
+
 }
 
 .wide {
@@ -43,6 +45,9 @@ mat-sidenav {
 
 @media only screen and (max-width: 649px) {
     .bricks {
-        height: 100vh;
+        height: 100vh !important;
+        text-align: center;
     }
+
+
 }
