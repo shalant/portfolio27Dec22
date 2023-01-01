@@ -11,9 +11,9 @@ import { HireMeComponent } from './hire-me/hire-me.component';
 
 const routes: Routes = [
   { path: '', component: WelcomeComponent},
-  { path: 'signup', component: SignupComponent},
-  { path: 'login', component: LoginComponent},
-  { path: 'training', component: TrainingComponent},
+  // { path: 'signup', component: SignupComponent},
+  // { path: 'login', component: LoginComponent},
+  // { path: 'training', component: TrainingComponent},
   {path: 'portfolio', component: PortfolioComponent},
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent},

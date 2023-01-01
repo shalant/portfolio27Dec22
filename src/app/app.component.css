@@ -3,18 +3,18 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .bricks {
     /* position: absolute; */
     background: url("../assets/patrick-tomasso-unsplash.jpg");
-    /* background-repeat: repeat-y; */
+    background-position: center;
     z-index: -1;
 }
 
 .wide {
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 /* .background,
@@ -41,3 +41,8 @@ mat-sidenav {
     /* width: 250px; */
 }
 
+@media only screen and (max-width: 649px) {
+    .bricks {
+        height: 100vh;
+    }
+}
