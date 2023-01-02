@@ -3,22 +3,31 @@
 }
 
 .text-area {
-    background-color: orange;
+    background-color: rgb(196, 129, 6);
     opacity: 70%;
-    clip-path: polygon(98% 11%, 91% 48%, 100% 90%, 62% 97%, 19% 92%, 3% 73%, 13% 20%, 5% 6%, 53% 3%);
+    clip-path: polygon(98% 11%, 91% 48%, 100% 90%, 62% 97%, 19% 92%, 10% 73%, 13% 20%, 5% 6%, 53% 3%);
     text-align: center;
-    height: 40rem;
+    height: 30rem;
     padding-top: 5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    word-wrap: break-word;
 }
 
 h1 h3 {
-    
+    margin: 0 2rem;
     color: white;
-    width: 50%;
+    width: 40%;
+    text-indent: 2rem;
 }
 
 .text {
     color: teal;
     text-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media only screen and (max-width: 649px) {
+    .text-area {
+        color: gray;
+        padding-top: 1rem;
+    }
 }
