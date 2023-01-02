@@ -144,5 +144,6 @@ th {
     margin: 1rem 0.5rem;
     padding: 1rem 0.5rem;
     overflow-x: scroll;
+    background-repeat: repeat;
 }
       }

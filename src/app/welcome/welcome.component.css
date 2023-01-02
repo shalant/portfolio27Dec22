@@ -31,6 +31,7 @@ header {
     font-family: 'Raleway';
     /* font-size: 5rem; */
     color: rgb(250, 250, 250, 0.8);
+    /* text-decoration-color: linear-gradient(90deg, #b2ff42 0%, #0d8773 100%); */
     text-shadow: 0 0 2px rgb(25, 24, 24);
     padding: 0 4rem;
     overflow-wrap: normal;
@@ -174,7 +175,7 @@ section {
 
 @media only screen and (min-width: 650px) {
     h1 {
-        font-size: 7rem;
+        font-size: 5rem;
         text-align: center; 
     }
 } 
@@ -182,7 +183,6 @@ section {
 @media only screen and (max-width: 649px) {
     h1 {
         font-size: 4rem;
-        text-emphasis: center;
 
     }
     .wrapper {
@@ -190,10 +190,17 @@ section {
     }
 }
 
-/*
-@media only screen and (min-width: 750px) {
+
+@media only screen and (min-width: 1000px) {
     h1 {
+      padding-top: 2rem;
         font-size: 7rem;
-        text-align: center;    
+        text-align: center;
+        color: grey;  
     }
-} */
+    h2 {
+    }
+    .hire-me {
+      margin-top: 3rem;
+    }
+}

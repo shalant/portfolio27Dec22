@@ -8,10 +8,14 @@ body {
 
 .bricks {
     /* position: absolute; */
-    background: url("../assets/patrick-tomasso-unsplash.jpg") repeat left top, linear-gradient(#eb01a5, #d13531);
-    background-position: center;
+    background: url("../assets/patrick-tomasso-unsplash.jpg");
+    /* background: url("../assets/patrick-tomasso-unsplash.jpg") repeat left top, linear-gradient(rgb(1, 150, 200), rgb(49, 150, 209)); */
+    /* background-size: cover;*/
+    background-position: center; 
     z-index: -1;
     /* height: 100vh !important; */
+    background-blend-mode:color-dodge;
+    /* background-blend-mode:lighten; */
 }
 
 .bg-pan-left {
@@ -79,9 +83,20 @@ mat-sidenav {
 
 @media only screen and (max-width: 649px) {
     .bricks {
-        height: 100vh !important;
-        text-align: center;
+        /* height: 100vh !important; */
+        /* text-align: center; */
+        /* background-size: cover; */
+        /* background-position: center center; */
+        /* background-attachment: fixed; */
     }
 
 
+}
+
+@media only screen and (min-width: 650px) {
+  .bricks {
+    /* height: 100vh;
+    background-size: cover; */
+    /* background-position: center center; */
+  }
 }
