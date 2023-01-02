@@ -8,7 +8,7 @@ body {
 
 .bricks {
     /* position: absolute; */
-    background: url("../assets/patrick-tomasso-unsplash.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2)), url("../assets/patrick-tomasso-unsplash.jpg");
     /* background: url("../assets/patrick-tomasso-unsplash.jpg") repeat left top, linear-gradient(rgb(1, 150, 200), rgb(49, 150, 209)); */
     /* background-size: cover;*/
     background-position: center; 
