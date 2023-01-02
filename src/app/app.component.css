@@ -19,8 +19,8 @@ body {
 }
 
 .bg-pan-left {
-	-webkit-animation: bg-pan-left 30s both;
-	        animation: bg-pan-left 30s both;
+	-webkit-animation: bg-pan-left 90s both;
+	        animation: bg-pan-left 90s both;
 }
 
 /* ----------------------------------------------
