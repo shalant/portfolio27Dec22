@@ -83,6 +83,14 @@ export class PortfolioComponent {
       github: 'https://github.com/shalant/dotnetAngCRUD',
       deployment: ''
     },
+    {
+      name: "Doug's Games",
+      technologies: 'React, Javascript, HTML/CSS',
+      description: 'Built Tetris, War, Rock/Paper/Scissors, Pong, and a Quiz App in JS and React',
+      image: '../../../assets/projectScreenshots/games.png',
+      github: 'https://github.com/shalant/dougs-games',
+      deployment: 'https://shalant.github.io/dougs-games/'
+    },
   ]
 
 }
