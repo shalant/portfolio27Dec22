@@ -22,9 +22,10 @@
           </p>
         </mat-card-content>
         <!-- ADD GH ICON, MAYBE A URL? -->
-        <mat-card-actions>
+        <mat-card-actions class="card-footer bottom-row">
           <button mat-icon><a href="{{ item.github }}"><i class="fa-brands fa-github fa-2x"></i></a></button>
           <button mat-button><a href="{{ item.deployment }}">Deployment</a></button>
+          <button mat-icon>Category: {{ item.category }}</button>
         </mat-card-actions>
       </mat-card>
 

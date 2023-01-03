@@ -68,7 +68,8 @@ body {
 img {
   border-radius: 3px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  max-height: 20rem;
+  height: 20rem;
+  
 }
 
 mat-card-title {
@@ -76,6 +77,14 @@ mat-card-title {
   font-size: 2rem !important;
   font-weight: 700;
   color: gradient()
+}
+
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
 }
 
 /* MEDIA QUERIES */
