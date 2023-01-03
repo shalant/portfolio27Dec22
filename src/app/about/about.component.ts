@@ -49,6 +49,7 @@ const PROJECT_DATA: Technology[] = [
   {position: 10, name: 'JWT', category: 'Security', icon: 'fa-sharp fa-solid fa-lock fa-2x'},
   {position: 10, name: 'Okta', category: 'Security', icon: 'fa-sharp fa-solid fa-lock fa-2x'},
   {position: 10, name: 'Auth0', category: 'Security', icon: 'fa-sharp fa-solid fa-lock fa-2x'},
+  {position: 11, name: 'Node', category: 'Backend', icon: 'fa-brands fa-node fa-2x'},
 ];
 
 @Component({
