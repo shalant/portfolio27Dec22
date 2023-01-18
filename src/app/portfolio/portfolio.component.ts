@@ -124,6 +124,15 @@ export class PortfolioComponent {
       deployment: '',
       category: 'tutorial'
     },
+    {
+      name: "Netlix clone- front end only",
+      technologies: 'React, Material-UI',
+      description: 'Youtube tutorial to build a clone',
+      image: '../../../assets/projectScreenshots/netflixReact.png',
+      github: 'https://github.com/shalant/netflixReact',
+      deployment: 'https://shalant.github.io/netflixReact/',
+      category: 'tutorial'
+    },
   ]
 
 }
