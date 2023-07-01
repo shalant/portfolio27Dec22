@@ -12,6 +12,24 @@ export class PortfolioComponent {
   
   projectList = [
     {
+      name: 'Sonus Construction Group',
+      technologies: 'Squarespace',
+      description: 'Designed a Squarespace site for a small business',
+      image: '../../../assets/projectScreenshots/SonusScreenshot.png',
+      github: 'https://github.com/shalant/',
+      deployment: 'https://tuatara-triangle-xepc.squarespace.com/',
+      category: 'Commercial Site'
+    },
+    {
+      name: 'Hardware Etc. LLC',
+      technologies: 'Squarespace',
+      description: 'Designed a Squarespace site for a small business',
+      image: '../../../assets/projectScreenshots/HardwareEtcLLCScreenshot.png',
+      github: 'https://github.com/shalant/',
+      deployment: 'https://apricot-cinnamon-ng9l.squarespace.com/',
+      category: 'Commercial Site'
+    },
+    {
       name: 'Tangy Web',
       technologies: 'ASP.NET Blazor, Azure',
       description: 'Robust full-stack E-Commerce site built from Bhrugen Patels Udemy Blazor Bootcamp. Has a customor-facing client application with Stripe payment, shopping cart, checkout, and confirmation. Also a Seller inventory management Server project to CRUD stock',
