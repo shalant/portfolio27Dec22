@@ -12,6 +12,15 @@ export class PortfolioComponent {
   
   projectList = [
     {
+      name: 'Bike Routes from Oak Park',
+      technologies: 'ASP.NET, C#, Azure, SQL, cool CSS',
+      description: 'Developed an application to give suggestions for bike routes in the area',
+      image: '../../../assets/projectScreenshots/BikeAppSS.jpg',
+      github: 'https://github.com/shalant/BikeApp4',
+      deployment: 'https://bikerouteapp.azurewebsites.net/',
+      category: 'Commercial Site'
+    },
+    {
       name: 'Sonus Construction Group',
       technologies: 'Squarespace',
       description: 'Designed a Squarespace site for a small business',
@@ -28,6 +37,15 @@ export class PortfolioComponent {
       github: 'https://github.com/shalant/',
       deployment: 'https://apricot-cinnamon-ng9l.squarespace.com/',
       category: 'Commercial Site'
+    },
+    {
+      name: 'Sci-Fi Media Store',
+      technologies: 'ASP.NET Blazor',
+      description: "Robust full-stack E-Commerce site built from Patrick God's Udemy Blazor Bootcamp. Has robust authentication, CRUD, stripe payment, etc.",
+      image: '../../../assets/projectScreenshots/SciFiMediaSS.jpg',
+      github: 'https://github.com/shalant/BlazorECommercePGUdemy',
+      deployment: 'google.com',
+      category: 'Tutorial'
     },
     {
       name: 'Tangy Web',
