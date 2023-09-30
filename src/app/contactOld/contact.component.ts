@@ -8,7 +8,7 @@ import { MatLabel } from '@angular/material/form-field';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit {
+export class ContactComponentOld implements OnInit {
 
   constructor() { }
 

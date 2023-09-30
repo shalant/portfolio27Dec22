@@ -1,14 +1,145 @@
 .example-container mat-form-field + mat-form-field {
-    margin-left: 8px;
-  }
+  margin-left: 8px;
+}
 
 .wrapper {
-  height: 100vh;
+  /* height: 100vh; */
   /* clip-path: polygon(99% 68%, 99% 68%, 47% 73%, 47% 73%, 16% 68%, 16% 68%, 5% 69%, 5% 69%, 1% 36%, 1% 36%, 31% 41%, 31% 41%, 63% 34%, 63% 34%, 97% 41%, 97% 41%, 98% 55%, 98% 55%); */
   /* background-color: linear-gradient(90deg blue, teal); */
 }
 
 .title {
-  font-family: 'Raleway';
-  color:aliceblue;
+  font-family: "Raleway";
+  color: aliceblue;
+}
+
+.contact-form {
+  width: 540px;
+  height: 440px;
+  background: rgb(230, 230, 230, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  /* margin: calc(50vh - 220px) auto; */
+  padding: 20px 30px;
+  /* max-width: calc(100vw - 40px); */
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* position: relative; */
+}
+h2 {
+  margin: 7px 0;
+  padding-bottom: 7px;
+  width: 300px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+button {
+  /* float: right; */
+  align-items: center;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #78788c;
+  color: #fff;
+}
+
+/* div {
+  display: flex;
+  content: "Hi";
+  align-items: center;
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #50505a;
+  color: #fff;
+  width: 520px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+} */
+
+span {
+  margin: 0 5px 0 15px;
+}
+
+.container {
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-gap: 10px; */
+    /* align-items: stretch; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  /* background-image: "../../../assets/lauren-mancke-unsplash.jpg"; */
+  /* background-size: 5000px; */
+  /* background-repeat: repeat-y; */
+  /* flex-direction: row; */
+  /* width: 100vw; */
+}
+
+.contact-thingy {
+  background-color: grey;
+  background: linear-gradient(90deg, rgba(238,238,225,1) 0%, rgba(238,238,238,1) 35%, rgb(209, 237, 243) 100%);
+  opacity: 0.87;
+  margin: 0.2rem 2rem;
+  padding: 0.2rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media only screen and (max-width: 649px) {
+  .contact-form {
+    width: 250px;
+    height: 180px;
+    padding: 5px 10px;
+  }
+
+  .background {
+  
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  .bg-bricks {
+    /* background-image: "../../../assets/lauren-mancke-unsplash.jpg"; */
+    /* background-repeat: no-repeat; */
+    font-family: 'Raleway';
+  }
+
+  .background {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* object-fit: cover; */
+  z-index: -1;
+  /* background-repeat: repeat; */
+  }
 }

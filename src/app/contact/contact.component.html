@@ -1,11 +1,110 @@
-<!-- <div [formGroup]="form" -->
-<div
-class="formbold-main-wrapper"
-style="display: flex; flex-direction: column; gap:50px;"
->
+<!-- [formGroup]="form" -->
+<!-- <div class="formbold-main-wrapper"> -->
+  <!-- style="display: flex; flex-direction: column; gap: 50px" -->
+  <div class="row">
+  <div class="container bg-bricks new-text">
+    <!-- <img src="../../../assets/patrick-tomasso-unsplash.jpg" alt="" class="background"> -->
+    <br>
+  <div class="contact-thingy">
+    
+    <!-- <form class="contact-form" action="javascript:void(0)" (submit)="send()" method="POST"> -->
+    <form class="" action="javascript:void(0)" (submit)="send()" method="POST">
+      <h2>CONTACT US</h2>
+      <p type="Name:">
+        <input placeholder="Write your name here.."
+          formControlName="from_name"
+          type="text"
+          name="name"
+          id="name"
+        />
+      </p>
+      <p type="Email:">
+        <input placeholder="Let us know how to contact you back.."
+          formControlName="from_email"
+          type="email"
+          name="email"
+          id="email"
+        />
+      </p>
+      <p type="Subject:">
+        <input 
+          formControlName="subject"
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="Enter your subject"
+        />
+      </p>
+      <p type="Message:">
+        <input placeholder="What would you like to tell us.."
+          formControlName="message"
+          name="message"
+          id="message"
+        />
+      </p>
+      <button type="submit">Send Message</button>
+      <div>
+        <span class="fa fa-phone"></span>773-627-4279
+        <span class="fa fa-envelope-o"></span> doug.rosenberg@gmail.com
+      </div>
+    </form>
+
+  </div>
+</div>
+</div>
+<!-- old form:
   <h1 style="color: #333">Contact us</h1>
 
-<div class="formbold-form-wrapper">
-  
-</div>
-</div>
+<form  action="javascript:void(0)" (submit)="send()" method="POST">
+  <mat-form-field appearance="outline">
+
+  <div class="formbold-mb-5">
+    <mat-label for="name" class="formbold-form-label">Full Name</mat-label>
+    <input
+      matInput
+      formControlName="from_name"
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Full Name"
+      class="formbold-form-input"
+    />
+  </div>
+  <div class="formbold-mb-5">
+    <label for="email" class="formbold-form-label">Email Address</label>
+    <input
+      formControlName="from_email"
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Enter your email"
+      class="formbold-form-input"
+    />
+  </div>
+  <div class="formbold-mb-5">
+    <label for="subject" class="formbold-form-label">Subject</label>
+    <input
+      formControlName="subject"
+      type="text"
+      name="subject"
+      id="subject"
+      placeholder="Enter your subject"
+      class="formbold-form-input"
+    />
+  </div>
+  <div class="formbold-mb-5">
+    <label for="message" class="formbold-form-label">Message</label>
+    <textarea
+      formControlName="message"
+      rows="6"
+      name="message"
+      id="message"
+      placeholder="Type your message"
+      class="formbold-form-input"
+    ></textarea>
+  </div>
+  <div>
+    <button type="submit" class="formbold-btn">Submit</button>
+  </div>
+</mat-form-field>
+</form> -->

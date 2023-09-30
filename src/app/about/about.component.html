@@ -1,75 +1,142 @@
 <div class="container new-text">
-  <br>
-<div class="card thingy">
-  <br>
-  <h1>Doug Rosenberg Dev</h1>
-  <div class="pic">
-    <img src="../../../assets/layout/headshot.jpg" alt="the man" class="headshot">
-  </div>
-  <h2>Bio</h2>
-  <h3>Full-stack .NET/Angular/SQL/Azure developer with DevOps background. Passionate about .NET/C#, Cloud Computing (both Azure/AWS), Angular/React, and working with a good team. Independent learner that enjoys pithy challenges. Lots of experience working with a variety of clients in coordinating details and managing logistics. Looking forward to my new career creating value for a company. <a href="https://github.com/shalant">My Github repo</a> is filled with more than 200 projects, and that is my strongest suit.</h3>
-  <address>Contact: <a href="mailto:doug.rosenberg.com">doug.rosenberg@gmail.com</a></address>
-  <br>
-  <div class="btn-con re-cen">
-    <!-- <a href="https://docs.google.com/document/d/1jQRlU7gJ3cMUGenah_rTNDkOCmaaEnn2/" class="main-btn"> -->
-    <!-- <a href="https://docs.google.com/document/d/1jQRlU7gJ3cMUGenah_rTNDkOCmaaEnn2/edit?usp=sharing&ouid=106474704243794663869&rtpof=true&sd=true" class="main-btn"> -->
-    <a href="https://docs.google.com/document/d/e/2PACX-1vSv2eh2w76V80jNTfWoPEUQ7mUV1dCmLuHftBAbzNRjsJmTuAJCzOMGvddAAFe0ig/pub" class="main-btn">
-        <a href="https://docs.google.com/document/d/e/2PACX-1vSv2eh2w76V80jNTfWoPEUQ7mUV1dCmLuHftBAbzNRjsJmTuAJCzOMGvddAAFe0ig/pub"><span class="btn-text">Download CV</span></a>
+  <br />
+  <div class="card thingy">
+    <br />
+    <h1>Doug Rosenberg Dev</h1>
+    <div class="pic">
+      <img
+        src="../../../assets/layout/headshot.jpg"
+        alt="the man"
+        class="headshot"
+      />
+    </div>
+    <h2>Bio</h2>
+    <h3>
+      Full-stack .NET/Angular/SQL/Azure developer with DevOps background.
+      Passionate about .NET/C#, Cloud Computing (both Azure/AWS), Angular/React,
+      and working with a good team. Independent learner that enjoys pithy
+      challenges. Lots of experience working with a variety of clients in
+      coordinating details and managing logistics. Looking forward to my new
+      career creating value for a company.
+      <a href="https://github.com/shalant">My Github repo</a> is filled with
+      more than 200 projects, and that is my strongest suit.
+    </h3>
+    <address>
+      Contact: <a href="mailto:doug.rosenberg.com">doug.rosenberg@gmail.com</a>
+    </address>
+    <br />
+    <div class="btn-con re-cen">
+      <!-- <a href="https://docs.google.com/document/d/1jQRlU7gJ3cMUGenah_rTNDkOCmaaEnn2/" class="main-btn"> -->
+      <!-- <a href="https://docs.google.com/document/d/1jQRlU7gJ3cMUGenah_rTNDkOCmaaEnn2/edit?usp=sharing&ouid=106474704243794663869&rtpof=true&sd=true" class="main-btn"> -->
+      <a
+        href="https://docs.google.com/document/d/e/2PACX-1vSv2eh2w76V80jNTfWoPEUQ7mUV1dCmLuHftBAbzNRjsJmTuAJCzOMGvddAAFe0ig/pub"
+        class="main-btn"
+      >
+        <a
+          href="https://docs.google.com/document/d/e/2PACX-1vSv2eh2w76V80jNTfWoPEUQ7mUV1dCmLuHftBAbzNRjsJmTuAJCzOMGvddAAFe0ig/pub"
+          ><span class="btn-text">Download CV</span></a
+        >
         <span class="btn-icon"><i class="fas fa-download"></i></span>
-    </a>
+      </a>
+    </div>
+    <br />
+    <p>
+      <a href="https://github.com/shalant"
+        >Github: https://github.com/shalant</a
+      >
+    </p>
+    <br />
   </div>
-  <br>
-  <p><a href="https://github.com/shalant">Github: https://github.com/shalant</a></p>
-  <br>
-</div>
 
-<div class="card thingy">
-<mat-form-field appearance="standard" class="filter-area">
-  <mat-label class="filter-text">Filter</mat-label>
-  <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
-</mat-form-field>
+  <div class="card thingy">
+    <mat-form-field appearance="standard" class="filter-area">
+      <mat-label class="filter-text">Filter</mat-label>
+      <input
+        matInput
+        (keyup)="applyFilter($event)"
+        placeholder="Ex. ium"
+        #input
+      />
+    </mat-form-field>
 
-<table mat-table [dataSource]="dataSource" matSort (matSortChange)="announceSortChange($event)" class="mat-elevation-z8">
-
-  <!--- Note that these columns can be defined in any order.
+    <table
+      mat-table
+      [dataSource]="dataSource"
+      matSort
+      (matSortChange)="announceSortChange($event)"
+      class="mat-elevation-z8"
+    >
+      <!--- Note that these columns can be defined in any order.
         The actual rendered columns are set as a property on the row definition" -->
 
-  <!-- Id Column -->
-  <ng-container matColumnDef="position">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by number"> No. </th>
-    <td mat-cell *matCellDef="let tech"> {{tech.position}} </td>
-  </ng-container>
+      <!-- Id Column -->
+      <ng-container matColumnDef="position">
+        <th
+          mat-header-cell
+          *matHeaderCellDef
+          mat-sort-header
+          sortActionDescription="Sort by number"
+        >
+          No.
+        </th>
+        <td mat-cell *matCellDef="let tech">{{ tech.position }}</td>
+      </ng-container>
 
-  <!-- Technology Column -->
-  <ng-container matColumnDef="name">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by tech"> Technology </th>
-    <td mat-cell *matCellDef="let tech"> {{tech.name}} </td>
-  </ng-container>
+      <!-- Technology Column -->
+      <ng-container matColumnDef="name">
+        <th
+          mat-header-cell
+          *matHeaderCellDef
+          mat-sort-header
+          sortActionDescription="Sort by tech"
+        >
+          Technology
+        </th>
+        <td mat-cell *matCellDef="let tech">{{ tech.name }}</td>
+      </ng-container>
 
-  <!-- Category Column -->
-  <ng-container matColumnDef="category">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by category"> Category </th>
-    <td mat-cell *matCellDef="let tech"> {{tech.category}} </td>
-  </ng-container>
+      <!-- Category Column -->
+      <ng-container matColumnDef="category">
+        <th
+          mat-header-cell
+          *matHeaderCellDef
+          mat-sort-header
+          sortActionDescription="Sort by category"
+        >
+          Category
+        </th>
+        <td mat-cell *matCellDef="let tech">{{ tech.category }}</td>
+      </ng-container>
 
-  <!-- Icon Column -->
-  <ng-container matColumnDef="icon">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by icon"> Icon </th>
-    <td mat-cell *matCellDef="let tech"><i class='{{tech.icon}}'></i> </td>
-  </ng-container>
+      <!-- Icon Column -->
+      <ng-container matColumnDef="icon">
+        <th
+          mat-header-cell
+          *matHeaderCellDef
+          mat-sort-header
+          sortActionDescription="Sort by icon"
+        >
+          Icon
+        </th>
+        <td mat-cell *matCellDef="let tech"><i class="{{ tech.icon }}"></i></td>
+      </ng-container>
 
-  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
 
-<!-- Row shown when there is no matching data. -->
-<tr class="mat-row" *matNoDataRow>
-  <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
-</tr>
+    <!-- Row shown when there is no matching data. -->
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">
+        No data matching the filter "{{ input.value }}"
+      </td>
+    </tr>
 
-<mat-paginator [pageSizeOptions]="[5, 10, 20]"
-showFirstLastButtons 
-aria-label="Select page of periodic elements">
-</mat-paginator>
-</div>
+    <mat-paginator
+      [pageSizeOptions]="[5, 10, 20]"
+      showFirstLastButtons
+      aria-label="Select page of periodic elements"
+    >
+    </mat-paginator>
+  </div>
 </div>
