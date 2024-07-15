@@ -85,7 +85,7 @@ h2 {
   }
   
   .title:hover {
-    transform: scale(1.05);
+    transform: scale(1.001);
   }
   
   .text-pop-up-top {

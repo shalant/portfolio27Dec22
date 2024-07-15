@@ -9,7 +9,7 @@
       <!-- {{ item.name }} is {{ item.age }} years old -->
 
       <mat-card class="example-card">
-        <mat-card-header>
+        <mat-card-header class="">
           <div mat-card-avatar class="example-header-image"></div>
           <mat-card-title class="card-title">{{ item.name }}</mat-card-title>
           <mat-card-subtitle>{{ item.technologies }}</mat-card-subtitle>
@@ -23,7 +23,11 @@
         </mat-card-content>
         <!-- ADD GH ICON, MAYBE A URL? -->
         <mat-card-actions class="card-footer bottom-row">
-          <button *ngIf="item.github != 'https://github.com/shalant/'" mat-icon><a href="{{ item.github }}"><i class="fa-brands fa-github fa-2x"></i></a></button>
+          <button *ngIf="item.github != 'https://github.com/shalant/'" mat-icon>
+            <a href="{{ item.github }}">
+              <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+          </button>
           <button *ngIf="item.github == 'https://github.com/shalant/'" mat-icon style="display: none;"></button>
           <button mat-button><a href="{{ item.deployment }}">Deployment</a></button>
           <button mat-icon>Category: {{ item.category }}</button>

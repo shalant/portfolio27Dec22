@@ -7,14 +7,18 @@ body {
 
 .bricks {
     /* position: absolute; */
-    background: linear-gradient(45deg, rgba(100, 100, 100, 0.1), rgba(204, 222, 202, 0.9)), url("../assets/patrick-tomasso-unsplash.jpg");
+    background: linear-gradient(45deg, rgba(204, 222, 202, 0.8),  rgba(141, 140, 140, 0.8)), url("../assets/patrick-tomasso-unsplash.jpg");
+    background-blend-mode: lighten(0.9);
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
     /* background: url("../assets/patrick-tomasso-unsplash.jpg"); */
     /* background: url("../assets/patrick-tomasso-unsplash.jpg") repeat left top, linear-gradient(rgb(1, 150, 200), rgb(49, 150, 209)); */
     /* background-size: cover;*/
     background-position: center; 
     z-index: -1;
     /* height: 100vh !important; */
-    background-blend-mode:saturation;
+    /* background-blend-mode:saturation; */
     /* background-blend-mode:lighten; */
 }
 

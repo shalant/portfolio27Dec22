@@ -49,13 +49,24 @@ header {
 }
 
 .title:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .text-pop-up-top {
   -webkit-animation: text-pop-up-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: text-pop-up-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.hire-me:hover {
+  color: rgb(225, 178, 21);
+  transform: scale(1.02) skew(2deg);
+  transition: ease-in-out 0.2;
+}
+
+.elizabeths-button {
+  color: purple;
+  background-color: rgb(198, 148, 189);
 }
 
 /* ----------------------------------------------

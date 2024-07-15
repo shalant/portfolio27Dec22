@@ -11,6 +11,15 @@ export class PortfolioComponent {
   
   projectList = [
     {
+      name: 'Blazor Dashboard',
+      technologies: 'Blazor, ASP.NET, C#, Azure, MS SQL, MudBlazor',
+      description: 'Dashboard consumes 2 APIs and data from a CRUD-able DB, includes a chloropleth map of AI Usage per state',
+      image: '../../../assets/projectScreenshots/Dashboard10July24.png',
+      github: 'https://github.com/shalant/BlazorDashboard2',
+      deployment: 'https://bikerouteapp.azurewebsites.net/',
+      category: 'Original'
+    },
+    {
       name: 'Bike Routes from Oak Park',
       technologies: 'ASP.NET, C#, Azure, SQL, cool CSS',
       description: 'Developed an application to give suggestions for bike routes in the area',

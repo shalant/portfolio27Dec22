@@ -45,6 +45,8 @@ body {
   max-width: 40vw; */
   width: 80%;
   opacity: 0.95;
+  overflow:hidden; 
+  text-overflow: ellipsis;
 }
 
 .example-card {
@@ -53,11 +55,13 @@ body {
     margin: 2rem 0 2rem 0;
     background-color: rgb(238, 238, 238);
     background: linear-gradient(90deg, rgba(238,238,225,1) 0%, rgba(238,238,238,1) 35%, rgb(209, 237, 243) 100%);
+    max-height: 680px;
+    min-height: 650px;
 }
 
 .example-card:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.6px 2px;
-    transform: scale(1.01);
+    transform: scale(1.005);
     transition: 250ms transform ease-in-out;
     color: rgb(44, 44, 44)
 }
@@ -73,15 +77,26 @@ img {
   height: 20rem;
 }
 
+/* mat-card .card-title {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+} */
+
+mat-card-header {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
 mat-card-title {
   font-family: 'Raleway';
-  font-size: 2rem !important;
-  font-weight: 700;
-  color: gradient()
+  font-size: 1.4rem !important;
+  font-weight: 4500;
+  color: gradient();
 }
 
 .card-title {
-  /* padding-left: 1px; */
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 .bottom-row {

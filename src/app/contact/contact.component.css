@@ -126,6 +126,15 @@ span {
     color: rgb(44, 44, 44)
 }
 
+/* .floating-block {
+  background-color: rgb(128, 128, 128, 0.5);
+  margin: 3rem 3rem 1rem 3rem;
+  padding: 0 0 0 3rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-wrap: wrap;
+} */
+
 @media only screen and (max-width: 649px) {
   .contact-form {
     width: 250px;
@@ -136,6 +145,22 @@ span {
   .background {
   
   }
+
+  h2 {
+    width: 200px;
+  }
+
+  .floating-block {
+    background-color: rgb(128, 128, 128, 0.5);
+    width: 99%;
+    margin: 1rem 0 1rem 0rem;
+    padding: 0;
+    border-radius: 5px;
+    text-wrap: wrap;
+    font-size: 0.7rem;
+  }
+
+  
 }
 
 @media only screen and (min-width: 650px) {
@@ -155,5 +180,38 @@ span {
 
   .contact-thingy {
     margin: 2rem 12rem;
+  }
+
+  .floating-block {
+    background-color: rgb(128, 128, 128, 0.5);
+    width: 99%;
+    margin: 1rem 0 1rem 0rem;
+    padding: 0;
+    border-radius: 5px;
+    text-wrap: wrap;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .floating-block {
+    background-color: rgb(128, 128, 128, 0.5);
+    width: 90%;
+    margin: 2rem 3rem 2rem 1rem;
+    padding: 0 0 0 1rem;
+    border-radius: 5px;
+    text-wrap: wrap;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1030px) {
+  .floating-block {
+    background-color: rgb(128, 128, 128, 0.5);
+    margin: 3rem 3rem 1rem 3rem;
+    padding: 0 0 0 3rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-wrap: wrap;
   }
 }

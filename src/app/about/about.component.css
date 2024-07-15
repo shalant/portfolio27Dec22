@@ -16,7 +16,7 @@
 }
 
 .card:hover {
-  transform: scale(1.007);
+  transform: scale(1.001);
   opacity: 0.98;
 
 }
@@ -84,6 +84,7 @@ th {
   /* display: flex; */
   /* align-self: flex-start; */
   align-items: center;
+  width: 250px;
 }
 
 .main-btn {
@@ -106,7 +107,6 @@ th {
 .btn-text {
       padding: 0 2rem;
       text-align: center;
-
   }
 
 .btn-icon {
@@ -148,5 +148,5 @@ th {
     padding: 0.2rem 0.5rem;
     overflow-x: scroll;
     background-repeat: repeat;
+  }
 }
-      }
