@@ -52,7 +52,6 @@ import { ContactComponent } from './contact/contact.component';
     BnavComponent,
     HireMeComponent,
     // ContactComponent,
-    
   ],
   imports: [
     BrowserModule,
