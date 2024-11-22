@@ -30,7 +30,6 @@ body {
   /* background-repeat: repeat; */
 }
 
-
 .grid-container {
   display: grid;
   justify-content: center;
@@ -58,17 +57,20 @@ body {
     margin: 2rem 0 2rem 0;
     /* background-color: rgba(238, 238, 238,0.1); */
     /* background: linear-gradient(90deg, rgba(238,238,225,1) 0%, rgba(238,238,238,1) 35%, rgb(209, 237, 243) 100%); */
-    background: linear-gradient(90deg, rgba(238,238,225,0.8) 0%, rgba(238,238,238,0.8) 35%, rgba(209, 237, 243, 0.8) 100%);
-    max-height: 680px;
-    min-height: 650px;
+    background: linear-gradient(108deg, rgba(238,238,225,0.3) 0%, rgba(238,238,238,0.7) 35%, rgba(209, 237, 243, 0.7) 90%);
+    /* max-height: 680px;
+    min-height: 650px; */
+    max-height: 12rem;
+    min-height: 38rem;
     transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    backdrop-filter: blur(60px) saturate(280%);
 
 }
 
 .example-card:hover {
-    box-shadow: rgba(100, 100, 100, 0.25) 2px 2px 2.6px 2px;
+    box-shadow: rgba(100, 100, 100, 0.25) 2px 4px 26px 2px;
     /* transform: scale(1.005); */
-    transform: scale(1.003);
+    transform: scale(1.001);
     /* transition: 250ms transform ease-in-out; */
     color: rgb(44, 44, 44)
 }
@@ -92,18 +94,19 @@ img {
 mat-card-header {
   padding-left: 0 !important;
   margin-left: 0 !important;
-  min-height: 115px;
+  min-height: 105px;
 }
 
 .mat-card-header-text {
   margin: 0 1px !important;
+  padding: 0 !important;
 }
 
 mat-card-title {
   margin-bottom: 5px;
   font-family: 'Raleway';
-  font-size: 1.4rem !important;
-  font-weight: 4500;
+  font-size: 1.3rem !important;
+  font-weight: 600;
   color: gradient();
 }
 
@@ -111,8 +114,19 @@ mat-card-subtitle {
   margin-bottom: 5px;
 }
 
-mat-card-image {
-  min-height: 370px;
+.mat-card-image {
+  min-height: 330px;
+  margin: 0 -16px 5px -16px !important;
+}
+
+mat-card-content {
+  min-height: 5rem;
+  max-height: 150px;
+  margin-bottom: 0 !important;
+}
+
+mat-card-actions {
+  padding-top: 0px;
 }
 
 .card-title {
@@ -125,7 +139,12 @@ mat-card-image {
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-evenly;
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.card-footer {
+  /* border: 1px red solid; */
+  
 }
 
 /* MEDIA QUERIES */

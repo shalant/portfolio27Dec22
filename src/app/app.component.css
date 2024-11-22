@@ -9,7 +9,7 @@ body {
     /* position: absolute; */
     background: linear-gradient(45deg, rgba(204, 222, 202, 0.8),  rgba(141, 140, 140, 0.8)), url("../assets/patrick-tomasso-unsplash.jpg");
     background-blend-mode: lighten(0.9);
-    
+    /* height: 90vh; */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 
     /* background: url("../assets/patrick-tomasso-unsplash.jpg"); */

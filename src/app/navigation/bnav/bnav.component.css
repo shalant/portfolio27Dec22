@@ -18,23 +18,22 @@
 }
 
 .nav-link {
-    font-weight: 600;
-    transition: color 500ms ease-in-out, size 500ms ease-in-out;
-
+    font-weight: 500;
+    /* transition: color 500ms ease-in-out, size 500ms ease-in-out; */
 }
 
 .nav-link:hover {
     opacity: 100;
-    color: rgba(100,100,100,0.9);
+    /* color: rgba(100,100,100,0.9); */
+    color: orange;
+
     size: 1.1rem !important;
     transition: ease-in-out;
 }
 
-
-
 .nav-link:active {
     color: darkgray;
-    font-weight: 1000;
+    font-weight: 800;
 }
 
 .nav-link::after {
