@@ -47,6 +47,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 0 12rem;
+    color: #fcfcfc !important;
 }
 
 .welcome {
@@ -85,7 +86,7 @@ h2 {
   }
   
   .title:hover {
-    transform: scale(1.001);
+    /* transform: scale(1.001); */
   }
   
   .text-pop-up-top {
@@ -111,7 +112,7 @@ h2 {
   
   h1:hover {
     /* mix-blend-mode:hard-light; */
-    transform: scale(1.05);
+    transform: scale(1.005);
     /* margin: 0 2rem; */
   }
   
@@ -122,12 +123,7 @@ h2 {
     color: rgb(234, 231, 231);
   }
   
-  @media only screen and (min-width: 650px) {
-    h1 {
-      font-size: 5rem;
-      text-align: center;
-    }
-  }
+ 
 
   @media only screen and (max-width: 649px) {
     header {
@@ -154,17 +150,26 @@ h2 {
     }
   }
   
+  @media only screen and (min-width: 650px) {
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+
   @media only screen and (min-width: 1000px) {
     h1 {
       padding-top: 2rem;
-      font-size: 7rem;
+      font-size: 5rem;
       text-align: center;
       color: grey;
     }
+
     h2 {
     }
+    
     .hire-me {
-      margin-top: 3rem;
+      margin-top: 2rem;
     }
   }
   
