@@ -18,12 +18,14 @@
 }
 
 .nav-link {
-    font-weight: 700;
+    font-weight: 600;
+    transition: color 500ms ease-in-out, size 500ms ease-in-out;
+
 }
 
 .nav-link:hover {
     opacity: 100;
-    color: darkgray;
+    color: rgba(100,100,100,0.9);
     size: 1.1rem !important;
     transition: ease-in-out;
 }

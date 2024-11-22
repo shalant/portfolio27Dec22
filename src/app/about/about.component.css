@@ -2,28 +2,29 @@
   background-color: grey;
   background: linear-gradient(90deg, rgba(238,238,225,1) 0%, rgba(238,238,238,1) 35%, rgb(209, 237, 243) 100%);
 
-  opacity: 0.87;
+  opacity: 0.89;
   margin: 0.2rem 2rem;
   padding: 0.2rem 2rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.thing:hover {
+.thingy:hover {
 }
 
 .card {
   background-color: rgb(238, 238, 238);
+  transition: opacity 0.5s ease-in-out;
 }
 
 .card:hover {
-  transform: scale(1.001);
-  opacity: 0.98;
+  /* transform: scale(1.001); */
+  opacity: 0.95;
 
 }
 
 img {
   align-items: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 50px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .pic {
@@ -31,8 +32,9 @@ img {
 }
 
 .headshot {
-  width: 30%;
+  width: 50%;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .new-text {
@@ -92,7 +94,7 @@ th {
   color: inherit;
   font-weight: 600;
   position: relative;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   align-self: flex-start;
   display: flex;
@@ -110,11 +112,11 @@ th {
   }
 
 .btn-icon {
-  background-color: rgb(184, 247, 247, 0.5);
+  background-color: rgb(184, 247, 247, 0.3);
   display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 50%;
+      border-radius: 40%;
       padding: 1rem;
   }
 

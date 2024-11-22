@@ -39,11 +39,13 @@ body {
 
 .cards {
   /* display: flex; */
-  margin: 0 1rem 0 1rem;
+  /* margin: 0 1rem 0 1rem; */
+  margin: 0 0.5rem 0 0.5rem;
+
   /* min-width: 350px; */
   /* min-width: 30vw;
   max-width: 40vw; */
-  width: 80%;
+  width: 83%;
   opacity: 0.95;
   overflow:hidden; 
   text-overflow: ellipsis;
@@ -51,18 +53,23 @@ body {
 
 .example-card {
     /* max-width: 400px; */
-    box-shadow: rgba(0, 0, 0, 0.2) 2.95px 1.95px 2.6px;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 2.95px 1.95px 2.6px; */
+    box-shadow: rgba(150, 150, 150, 0.9) 2px 4px 20px;
     margin: 2rem 0 2rem 0;
-    background-color: rgb(238, 238, 238);
-    background: linear-gradient(90deg, rgba(238,238,225,1) 0%, rgba(238,238,238,1) 35%, rgb(209, 237, 243) 100%);
+    /* background-color: rgba(238, 238, 238,0.1); */
+    /* background: linear-gradient(90deg, rgba(238,238,225,1) 0%, rgba(238,238,238,1) 35%, rgb(209, 237, 243) 100%); */
+    background: linear-gradient(90deg, rgba(238,238,225,0.8) 0%, rgba(238,238,238,0.8) 35%, rgba(209, 237, 243, 0.8) 100%);
     max-height: 680px;
     min-height: 650px;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+
 }
 
 .example-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2.6px 2px;
-    transform: scale(1.005);
-    transition: 250ms transform ease-in-out;
+    box-shadow: rgba(100, 100, 100, 0.25) 2px 2px 2.6px 2px;
+    /* transform: scale(1.005); */
+    transform: scale(1.003);
+    /* transition: 250ms transform ease-in-out; */
     color: rgb(44, 44, 44)
 }
   
@@ -85,13 +92,27 @@ img {
 mat-card-header {
   padding-left: 0 !important;
   margin-left: 0 !important;
+  min-height: 115px;
+}
+
+.mat-card-header-text {
+  margin: 0 1px !important;
 }
 
 mat-card-title {
+  margin-bottom: 5px;
   font-family: 'Raleway';
   font-size: 1.4rem !important;
   font-weight: 4500;
   color: gradient();
+}
+
+mat-card-subtitle {
+  margin-bottom: 5px;
+}
+
+mat-card-image {
+  min-height: 370px;
 }
 
 .card-title {

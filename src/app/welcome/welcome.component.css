@@ -19,14 +19,14 @@ body {
 }
 
 header {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   /* position: relative; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center !important;
   text-align: center;
-  height: 100vh;
+  height: 90vh;
   /* transform-style: preserve-3d; */
   /* z-index: -1; */
 }
@@ -40,10 +40,10 @@ header {
   align-items: center;
   font-family: "Raleway";
   /* font-size: 5rem; */
-  color: rgb(250, 250, 250, 0.9);
+  color: rgb(250, 250, 250, 0.8);
   /* text-decoration-color: linear-gradient(90deg, #b2ff42 0%, #0d8773 100%); */
   text-shadow: 1px 1px 2px rgb(25, 24, 24);
-  padding: 0 2rem;
+  padding: 0 0rem;
   overflow-wrap: normal;
   z-index: 1;
 }
