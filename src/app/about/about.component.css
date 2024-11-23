@@ -100,10 +100,15 @@ th {
   display: flex;
   align-items: center;
   overflow: hidden;
+  box-shadow: lightgrey 1px 1px 3px;
+  transition: transform 500ms ease-in-out, box-shadow 500ms ease-in-out;
 }
 
 .main-btn:hover {
-  transform: scale(1.03);
+  transform: scale(1.003);
+  box-shadow: lightgrey 1px 2px 5px;
+  color: #222222;
+  background: linear-gradient(108deg, rgba(222,222,232, 0.4) 0%, rgba(202,202,212, 0.4) 100%);
 }
 
 .btn-text {
